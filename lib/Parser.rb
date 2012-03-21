@@ -11,7 +11,7 @@ class Parser
     def initialize #creates a new parser
 		  #I get an error, wrong number of arguments, when I uptdate this to the most recent parser version
 		  #review later
-		  @parser = LexicalizedParser.new("C:/Rails/Stanford_jruby/lib/stanford-parser/englishPCFG.ser.gz") #relative addresses don't work here, so I always have to remember to change the path when deploying, any way aroun this?
+		  #@parser = LexicalizedParser.new("C:/Rails/Stanford_jruby/lib/stanford-parser/englishPCFG.ser.gz") #relative addresses don't work here, so I always have to remember to change the path when deploying, any way aroun this?
     end
 
     def getparsedsentence(input) #takes a sentence and returns a parsed sentence object ('Sentence.rb')
